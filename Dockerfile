@@ -1,4 +1,4 @@
-FROM base:latest
+FROM qingfeng1987/k8s-gerrit-base:latest
 
 # Install apache2
 RUN apk update && \
